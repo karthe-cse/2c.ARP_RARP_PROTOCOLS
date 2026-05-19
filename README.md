@@ -17,6 +17,7 @@ stored.
 5. Map the IP address with its MAC address and return the MAC address to client.
 P
 ## PROGRAM - ARP
+
 ## CLIENT
 ~~~
 import socket
@@ -33,6 +34,7 @@ while True:
 s.close()
 print("Connection closed.")
 ~~~
+
 ## SERVER
 ~~~
 import socket
@@ -58,10 +60,13 @@ while True:
 c.close()
 print("Connection closed.")
 ~~~
+
 ## OUPUT - ARP
 <img width="635" height="197" alt="Screenshot 2026-05-19 134023" src="https://github.com/user-attachments/assets/c8bbaa41-20ea-43db-85f0-7f629b613bcf" />
 <img width="606" height="262" alt="Screenshot 2026-05-19 134037" src="https://github.com/user-attachments/assets/0cdbe2d0-2773-4b34-b10e-282b9607418b" />
+
 ## PROGRAM - RARP
+
 ## CLIENT
 ~~~
 import socket
@@ -77,7 +82,9 @@ while True:
 s.close()
 print("Connection closed.")
 ~~~
+
 ## SERVER
+
 ~~~
 import socket
 s = socket.socket()
@@ -103,10 +110,10 @@ while True:
 c.close()
 print("Connection closed.")
 ~~~
+
 ## OUPUT -RARP
 <img width="641" height="291" alt="Screenshot 2026-05-19 134222" src="https://github.com/user-attachments/assets/637c0829-1ab1-42c9-a204-59104c77eb49" />
 <img width="641" height="291" alt="Screenshot 2026-05-19 134222" src="https://github.com/user-attachments/assets/e316d36d-b771-4cdb-b3b6-7a8271f744b1" />
-
 ## RESULT
 Thus, the python program for simulating ARP protocols using TCP was successfully 
 executed.
